@@ -68,10 +68,4 @@ int main()
 
 	printf("Mang sau khi xoa phan tu %d : \n",k);
 	xuat(arr, n);
-
-
-
-
-
-
 }
