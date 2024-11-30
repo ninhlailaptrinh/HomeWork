@@ -70,7 +70,7 @@ void timSNT(int arr[], int n)
         if(kiemTraSNT(arr[i]))
         {
             printf("Vi tri so nguyen to dau tien la: %d\n", i);
-            return; // Thoát ngay khi tìm thấy số nguyên tố đầu tiên
+            return; // Thoát ngay khi tìm thấy số nguyên tố
         }
     }
     printf("Khong co so nguyen to trong mang\n");
