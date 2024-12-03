@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-void nhap(char arr[])
+int main()
 {
-	printf("Moi nhap vao chuoi cua ban : ");
-}
+	char string[1000];
 
+	printf("Nhap vao chuoi : ");
+	fgets(string, sizeof(string) , stdin);
+	puts(string);
+}
